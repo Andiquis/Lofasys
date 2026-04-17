@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and databases
+logs/
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Heavy Models, Weights & Datasets
+dataset_users/
+**/models/
+*.onnx
+*.h5
+*.pt
+*.pth
+*.pb
+*.weights
+*.bin
